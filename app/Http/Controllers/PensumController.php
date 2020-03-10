@@ -22,6 +22,16 @@ class PensumController extends Controller
     }
 
 
+    public function mySearch(Request $request)
+    {
+        if($request->has('search')) {
+            $pensums = Pensum::search($request->get('search'))->get();
+        }else{
+            $pensums = Pensum::get();
+        }
+        return view('my-search', compact('pensums'));
+    }
+
     /**
      * Show the form for creating a new resource.
      *
@@ -32,7 +42,7 @@ class PensumController extends Controller
         return view('pensums.create');
     }
 
-
+ 
     /**
      * Store a newly created resource in storage.
      *

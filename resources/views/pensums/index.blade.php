@@ -16,9 +16,9 @@
             </div>
         
                 <div class="pull-left">
-                    <form action="search" method="get">
+                    <form action="my-search" method="get">
                         <div class="form-group">
-                            <input type="text" name="search" id="search" class="form-control">
+                            <input type="text"  name="search"  class="form-control">
                             <span class="form-group-btn"></span>
                             <button type="submit" class="btn btn-primary">Recherche</button>
                         </div> 
