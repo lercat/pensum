@@ -10,6 +10,14 @@ body {
     background-color: #1F2739;
 }
 
+h1 {
+    font-size: 2em;
+    font-weight: 700;
+    padding-top: 2em;
+    color: #4DC3FA;
+    letter-spacing: 2px;
+}
+
 h2 {
     font-size: 2em;
     font-weight: 500;
@@ -32,7 +40,8 @@ h2 a {
 .yellow {
     color: #fff;
 }
-/*rajout ici*/
+/*rajout ici //////////////////////////// 
+mais à changer */
 .ajout {
     padding-top: 0.6em;
     padding-left: 1em;

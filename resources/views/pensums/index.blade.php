@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2>Laravel 6 CRUD</h2>
+                <h1>Laravel 6 CRUD</h1>
                 <br />
                 <h2>Termes à connaître pour la certif</h2>
             </div>
