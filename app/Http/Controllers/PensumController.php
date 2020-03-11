@@ -21,7 +21,7 @@ class PensumController extends Controller
             ->with('i', (request()->input('page', 1) -1) *5);
     }
 
-
+/* Trouver comment rechercher aussi ds détail et pas uniquement dans le titre*/
     public function mySearch(Request $request)
     {
         if($request->has('search')) {

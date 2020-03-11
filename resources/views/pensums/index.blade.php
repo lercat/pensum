@@ -15,15 +15,18 @@
                 <a class="btn btn-success" href="{{ route('pensums.create') }}"> Ajouter un terme & sa définition</a>
             </div>
         
-                <div class="pull-left">
-                    <form action="my-search" method="get">
-                        <div class="form-group">
-                            <input type="text"  name="search"  class="form-control">
-                            <span class="form-group-btn"></span>
-                            <button type="submit" class="btn btn-primary">Recherche</button>
-                        </div> 
-                    </form>
-                </div>
+            <form method="GET" action="{{ url('my-search') }}">
+			<div class="row">
+				<div class="col-md-6">
+					<input type="text" name="search" class="form-control" placeholder="Search" value="{{ old('search') }}">
+				</div>
+				<div class="col-md-6">
+					<button class="btn btn-success">Search</button>
+				</div>
+			</div>
+		</form>
+
+
             </div>
             
         </div>
