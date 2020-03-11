@@ -9,23 +9,23 @@
                 <br />
                 <h2>Termes à connaître pour la certif</h2>
             </div>
-            <hr>
 
-            <div class="pull-right">
+<div class="col-lg-12 margin-tb">
+            <div class="col-md-4">
                 <a class="btn btn-success" href="{{ route('pensums.create') }}"> Ajouter un terme & sa définition</a>
             </div>
         
             <form method="GET" action="{{ url('my-search') }}">
 			<div class="row">
-				<div class="col-md-6">
-					<input type="text" name="search" class="form-control" placeholder="Search" value="{{ old('search') }}">
+				<div class="col-md-5">
+					<input type="text" name="search" class="form-control" placeholder="Terme Recherché" value="{{ old('search') }}">
 				</div>
-				<div class="col-md-6">
-					<button class="btn btn-success">Search</button>
+				<div class="col-md-3">
+					<button class="btn btn-success">Clique ici</button>
 				</div>
 			</div>
 		</form>
-
+</div>
 
             </div>
             

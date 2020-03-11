@@ -1,19 +1,10 @@
-<!DOCTYPE html>
-<html>
+@extends('pensums.layout')
 
-<head>
-    <title>Search Example</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
-</head>
-
-<body>
+@section('content')
 
 	<div class="container">
 
-		<h1>Alors on en parle !!!</h1>
+		<h1>Alors on en parle ici !!!</h1>
 
 		<div class="pull-left">
                 <a class="btn btn-primary" href="{{ route('pensums.index') }}"> Retour</a>
@@ -32,8 +23,8 @@
 
 				<tr>
 					<td>{{ $pensum->id }}</td>
-					<td>{{ $pensum->name }}</td>
-					<td>{{ $pensum->email }}</td>
+					<td>{{ $pensum->titre }}</td>
+					<td>{{ $pensum->detail }}</td>
 				</tr>
 
 				@endforeach
@@ -48,5 +39,4 @@
 
 		</table>
 	</div>
-</body>
-</html>
+	@endsection

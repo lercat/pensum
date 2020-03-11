@@ -9,9 +9,9 @@
             <h2>Ajouter une tâche</h2>
         </div>
 
-        <div class="pull-right">
+        <!-- <div class="pull-right">
             <a class="btn btn-primary" href="{{ route('pensums.index') }}"> Retour</a>
-        </div>
+        </div> -->
     </div>
 </div>
 
