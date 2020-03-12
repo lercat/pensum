@@ -1,36 +1,28 @@
 @extends('pensums.layout')
 
 @section('content')
+<div class="container">
+   
+                <h1>Laravel 6 CRUD</h1>
+                <h2>Termes à connaître pour la certif</h2>
 
     <div class="row">
-        <div class="col-lg-12 margin-tb">
-            <div class="pull-left">
-                <h1>Laravel 6 CRUD</h1>
-                <br />
-                <h2>Termes à connaître pour la certif</h2>
-            </div>
-
-<div class="col-lg-12 margin-tb">
             <div class="col-md-4">
                 <a class="btn btn-success" href="{{ route('pensums.create') }}"> Ajouter un terme & sa définition</a>
             </div>
-        
-            <form method="GET" action="{{ url('my-search') }}">
-			<div class="row">
-				<div class="col-md-5">
-					<input type="text" name="search" class="form-control" placeholder="Terme Recherché" value="{{ old('search') }}">
-				</div>
-				<div class="col-md-3">
-					<button class="btn btn-success">Clique ici</button>
-				</div>
-			</div>
-		</form>
-</div>
-
-            </div>
             
-        </div>
+        <form method="GET" action="{{ url('my-search') }}">
+                <div class="col-md-7" class="form-control">
+                    <input type="text" name="search" class="form-control" placeholder="Terme Recherché" value="{{ old('search') }}">
+                </div>
+                <div class="col-md-1">
+                    <button class="btn btn-success">C'est parti</button>
+                </div>
+        </form>
+        </div>            
     </div>
+
+</div>
 
     @if ($message = Session::get('success'))
 
