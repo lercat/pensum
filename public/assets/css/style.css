@@ -6,15 +6,16 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     line-height: 1.42em;
-    color: #C3BEF7;
+    color: #EBECEE;
     background-color: #1F2739;
 }
 
 h1 {
     font-size: 2em;
     font-weight: 700;
+    text-transform: uppercase;
     text-align: center;
-    padding-top: 2em;
+    padding-top: 1.6em;
     color: #4DC3FA;
     letter-spacing: 2px;
 }
@@ -26,21 +27,6 @@ h2 {
     padding-top: 1em;
     padding-bottom: 2em;
     color: #4DC3FA;
-}
-
-/* h2 a {
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #FB667A;
-    text-decoration: none;
-} */
-
-.blue {
-    color: #185875;
-}
-
-.yellow {
-    color: #fff;
 }
 
 .container2 th h1 {
@@ -61,7 +47,7 @@ h2 {
 .container2 {
     text-align: left;
     overflow: hidden;
-    width: 90%;
+    width: auto;
     margin: 0 auto;
     display: table;
     padding: 0 0 8em 0;
@@ -87,7 +73,12 @@ a.primary {
     text-decoration: none;
   }
 
-
+.btn.btn-primary{
+      font-size: 16px;
+      font-weight: 500;
+      background-color: #4DC3FA;
+      border-color: #fff;
+  }
 
 .btn.btn-success{
     font-size: 16px;
@@ -97,14 +88,31 @@ a.primary {
 }
 
 .form-control {
-    font-family: "Open-sans";
+    font-family: 'Open-sans', sans-serif;
     font-size: 16px;
     height: 38px;
     border: 2px solid  #4DC3FA;
 }
-a.btn.btn-danger {
+
+.btn.btn-danger {
+  font-weight: bolder;
   padding-right: 10%;
-  color: #FB667A;
+  color: #fa844d;
+  background-color: #EBECEE;
+  border-color: #4DC3FA;
+}
+
+
+.alert.alert-success.orange{
+  width: 50%;
+  font-family: 'Open-sans', sans-serif;
+  font-weight: 500;
+  margin-top: 1em;
+  margin-left: 14px;
+  background-color: #EBECEE;
+}
+.alert>p{
+  color: #000;
 }
 /* Background-color of the odd rows */
 .container2 tr:nth-child(odd) {
@@ -145,7 +153,14 @@ a.btn.btn-danger {
     transition-timing-function: line;
 }
 
-
+.row.gris {
+    font-family: 'Open-sans', sans-serif;
+    font-size: 16px;
+    color: #0E1119 ;
+    background-color:  #EBECEE;
+    margin-bottom: 1em;
+    padding-top: 0.8em ;
+}
 
 @media (max-width: 800px) {
 

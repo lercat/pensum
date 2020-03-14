@@ -7,10 +7,6 @@
             <div class="pull-left">
                 <h2>Modifier la tâche</h2>
             </div>
-
-            <div class="pull-right">
-                <a class="btn btn-primary" href="{{ route('pensums.index') }}"> Retour</a>
-            </div>
         </div>
     </div>
 
@@ -27,7 +23,7 @@
 
     @endif
 
-  
+
     <form action="{{ route('pensums.update',$pensum->id) }}" method="POST">
         @csrf
         @method('PUT')

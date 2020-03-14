@@ -6,10 +6,6 @@
 
 		<h1>Alors on en parle ici !!!</h1>
 
-		<div class="pull-left">
-                <a class="btn btn-primary" href="{{ route('pensums.index') }}"> Retour</a>
-        </div>
-
 		<table class="table table-bordered">
 			<tr>
 				<th>Id</th>
@@ -38,5 +34,9 @@
 			@endif
 
 		</table>
+
+		<div class="pull-left">
+				<a class="btn btn-primary" href="{{ route('pensums.index') }}"> Retour</a>
+		</div>
 	</div>
 	@endsection
