@@ -22,7 +22,7 @@ h1 {
 
 h2 {
     font-size: 2em;
-    font-weight: 500;
+    font-weight: 400;
     text-align: center;
     padding-top: 1em;
     padding-bottom: 2em;
@@ -61,17 +61,14 @@ h2 {
 }
 
 
+
+
 a.info {
   margin-right: 8%;
   color:#4DC3FA;
   text-decoration: none;
 }
 
-a.primary {
-    margin-right: 8%;
-    color:#4DC3FA;
-    text-decoration: none;
-  }
 
 .btn.btn-primary{
       font-size: 16px;
@@ -87,11 +84,14 @@ a.primary {
     border-color: #fff;
 }
 
-.form-control {
+#milieu {
     font-family: 'Open-sans', sans-serif;
     font-size: 16px;
     height: 38px;
+    margin: auto;
+    padding-left: 30px;
     border: 2px solid  #4DC3FA;
+    border-radius: 5px;
 }
 
 .btn.btn-danger {
@@ -104,15 +104,18 @@ a.primary {
 
 
 .alert.alert-success.orange{
-  width: 50%;
+  width: 26rem;
+  height: 4rem;
   font-family: 'Open-sans', sans-serif;
   font-weight: 500;
   margin-top: 1em;
-  margin-left: 14px;
+  margin-left: 2px;
   background-color: #EBECEE;
+  border-color:#4DC3FA;
 }
+
 .alert>p{
-  color: #000;
+    color: #fa844d;
 }
 /* Background-color of the odd rows */
 .container2 tr:nth-child(odd) {
