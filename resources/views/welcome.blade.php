@@ -81,7 +81,11 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Enregistrez-vous pour alimenter la ToDoList
+                    ToDoList
+                </div>
+                <div>
+                    <h2>Un crud sur une liste de termes informatiques</h2>
+                    <h3>Enregistrez-vous si vous voulez aller plus loin !!!</h3>
                 </div>
 
 
