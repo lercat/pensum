@@ -1,6 +1,6 @@
 @extends('pensums.layout')
 
-@section('content')
+@section('contenu')
 
     <div class="row">
         <div class="col-lg-12 margin-tb">

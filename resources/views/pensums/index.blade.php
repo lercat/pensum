@@ -1,6 +1,7 @@
+
 @extends('pensums.layout')
 
-@section('content')
+@section('contenu')
 <div class="container">
 
     <h1>Laravel 6 CRUD</h1>
@@ -69,3 +70,5 @@
     {!! $pensums->links() !!}
 
 @endsection
+
+@extends('../layouts/app')

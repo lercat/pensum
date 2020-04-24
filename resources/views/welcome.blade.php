@@ -81,12 +81,10 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel Yep
+                    Enregistrez-vous pour alimenter la ToDoList
                 </div>
 
-                <div class="links">
-                    <a href="http://localhost/laravel/todolistDeux/public/pensums">Par ici</a>
-            </div>
+
         </div>
     </body>
 </html>
